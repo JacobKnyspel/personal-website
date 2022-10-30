@@ -4,11 +4,11 @@ authors:
 - Knyspel, J.
 - Foster, J.
 author_notes: ""
-date: "Upcoming"
+date: "2022-01-01T00:00:00Z"
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "Upcoming"
+publishDate: "2022-01-01T00:00:00Z"
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
@@ -20,7 +20,7 @@ publication_types: ["3"]
 publication: "Manuscript submitted for publication"
 publication_short: ""
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+abstract: As a topic in the history of psychology, hysteria has retained a compelling feminist legacy that is now largely synonymous with the condition itself. Despite this however, little has been said regarding the extent to which the specific feminist issues that can be identified during the prominence of hysteria remain issues in psychology today. Here it is argued that, while historical progress regarding feminist issues might wish to be assumed in psychology, the truth is that some such issues remain at the very core of the discipline. Through a focus on the work of Jean-Martin Charcot and the Salpêtrière hospital, two longstanding feminist issues are discussed: feminist epistemology, meaning the influence of sex-based sociocultural factors on the nature of psychological knowledge and discourse; and iatrogenesis, meaning the potential of the medical field to negatively impact the health of patients. Important parallels are drawn between psychology during the prominence of hysteria and psychology today, and it is concluded that hysteria remains a useful reference point for contextualising the feminist issues present in the discipline.
 
 # Summary. An optional shortened abstract.
 summary: ""
