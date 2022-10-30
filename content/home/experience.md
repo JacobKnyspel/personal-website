@@ -38,7 +38,10 @@ experience:
     location: London
     date_start: '2021-09-01'
     date_end: '2022-07-01'
-    description: I completed a self-led undergraduate research project under the supervision of Dr. Charlotte Russell (King’s College London) which formed the basis of my final-year dissertation. I used advanced quantitative methods including generalized linear mixed-effect modelling and likelihood-based model comparisons to provide new insight into the temporal mechanics of facial expression perception in healthy individuals. For this project I was awarded an *Undergraduate Poster Conference Prize* and nominated for the *EPS/BSA Undergraduate Project Prize* and *BPS Cognitive Section Undergraduate Project Prize*.
+    description: >-
+    * I completed a self-led undergraduate research project under the supervision of Dr. Charlotte Russell (King’s College London), which formed the basis of my final-year dissertation. 
+    * I used advanced quantitative methods including generalized linear mixed-effect modelling and likelihood-based model comparisons to provide new insight into the temporal mechanics of facial expression perception in healthy individuals. 
+    * For this project I was awarded an *Undergraduate Poster Conference Prize* and nominated for the *EPS/BSA Undergraduate Project Prize* and *BPS Cognitive Section Undergraduate Project Prize*.
 
 design:
   columns: '2'
