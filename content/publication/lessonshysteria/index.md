@@ -1,8 +1,8 @@
 ---
 title: "Lessons from the legacy of hysteria: A feminist retrospective for modern psychology"
 authors:
-- Knyspel, J.
-- Foster, J.
+- Jacob Knyspel
+- Juliet Foster
 author_notes: ""
 date: "2022-01-01T00:00:00Z"
 doi: ""
