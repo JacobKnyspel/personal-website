@@ -29,9 +29,9 @@ experience:
     location: London
     date_start: '2022-11-01'
     date_end: ''
-    description: 
+    description: >-
         I am leading an independent research project under the supervision of Dr Ashley Brown (King's College London), the aim of which is to develop and validate a new quantitative scale of gender salience.
-        |2-
+        
         Responsibilities include:
         
         * Analysing
