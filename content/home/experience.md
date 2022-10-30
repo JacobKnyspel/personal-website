@@ -51,5 +51,5 @@ experience:
 proposing recruitment strategies, analysing data, and contributing to a written report of the finished research. For this fellowship I was awarded a *King's Research Experience Award*.
 
 design:
-  columns: '3'
+  columns: '2'
 ---
