@@ -31,7 +31,7 @@ experience:
     date_end: ''
     description: I am leading an independent research project under the supervision of Dr Ashley Brown (King's College London), the aim of which is to develop and validate a novel quantitative scale of gender salience. This project is being funded by the KCL Student Opportunity Fund.
 
-- title: Professor of Semiconductor Physics
+  - title: Professor of Semiconductor Physics
     company: University X
     company_url: ''
     company_logo: org-x
