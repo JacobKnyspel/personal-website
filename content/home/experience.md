@@ -22,14 +22,16 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
+  - title: Researcher
+    company: Independent
     company_url: ''
     company_logo: org-gc
-    location: California
-    date_start: '2021-01-01'
+    location: London
+    date_start: '2022-11-01'
     date_end: ''
-    description: |2-
+    description: 
+        I am leading an independent research project under the supervision of Dr Ashley Brown (King's College London), the aim of which is to develop and validate a new quantitative scale of gender salience.
+        |2-
         Responsibilities include:
         
         * Analysing
