@@ -22,18 +22,18 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Researcher
-    company: Independent
+  - title: Lead Researcher
+    company: Gender Salience Scale Project
     company_url: ''
     company_logo: org-gc
     location: London
     date_start: '2022-11-01'
     date_end: ''
     description: >-
-        I am leading an independent research project under the supervision of Dr Ashley Brown (King's College London), the aim of which is to develop and validate a new quantitative scale of gender salience.
-        >-
+        I am leading an independent research project under the supervision of Dr Ashley Brown (King's College London), the aim of which is to develop and validate a    novel quantitative scale of gender salience.
+        
         Responsibilities include:
-        >-
+        
         * Analysing
         * Modelling
         * Deploying
