@@ -34,7 +34,7 @@ experience:
   - title: Undergraduate Research Project
     company: Department of Psychology, King's College London
     company_url: ''
-    company_logo: org-x
+    company_logo: kcl
     location: London
     date_start: '2021-09-01'
     date_end: '2022-07-01'
