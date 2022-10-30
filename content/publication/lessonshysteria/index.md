@@ -65,5 +65,5 @@ slides: ""
 ---
 
 {{% callout note %}}
-Click the *Cite* button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+This publication is still under review and as result this webpage may change in the future.
 {{% /callout %}}
