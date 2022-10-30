@@ -29,7 +29,7 @@ experience:
     location: London
     date_start: '2022-11-01'
     date_end: ''
-    description: I am leading an independent research project under the supervision of Dr Ashley Brown (King's College London), the aim of which is to develop and validate a new quantitative scale of gender salience. This project is being funded by the KCL Student Opportunity Fund.
+    description: I am leading an independent research project under the supervision of [Dr Ashley Brown](https://www.kcl.ac.uk/people/ashley-brown) (King's College London), the aim of which is to develop and validate a new quantitative scale of gender salience. This project is being funded by the KCL Student Opportunity Fund.
 
   - title: Undergraduate Research Project
     company: Department of Psychology, King's College London
