@@ -3,7 +3,9 @@ title: "Lessons from the legacy of hysteria: A feminist retrospective for modern
 authors:
 - Jacob Knyspel
 - Juliet Foster
-author_notes: ""
+author_notes: 
+- "Institute of Psychiatry, Psychology and Neuroscience, King's College London"
+- "Institute of Psychiatry, Psychology and Neuroscience, King's College London"
 date: "2022-01-01T00:00:00Z"
 doi: ""
 
@@ -25,10 +27,9 @@ abstract: "As a topic in the history of psychology, hysteria has retained a comp
 # Summary. An optional shortened abstract.
 summary: ""
 
-tags:
-- Source Themes
+tags: ""
 
-featured: false
+featured: true
 
 # links:
 # - name: ""
