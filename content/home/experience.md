@@ -25,7 +25,7 @@ experience:
   - title: Principal Investigator
     company: Gender Salience Scale Project
     company_url: ''
-    company_logo: org-gc
+    company_logo: gssp
     location: London
     date_start: '2022-11-01'
     date_end: ''
@@ -33,7 +33,7 @@ experience:
 
   - title: Undergraduate Research Project
     company: Department of Psychology, King's College London
-    company_url: ''
+    company_url: https://www.kcl.ac.uk/mental-health-and-psychological-sciences/about/departments/psychology
     company_logo: kcl
     location: London
     date_start: '2021-09-01'
