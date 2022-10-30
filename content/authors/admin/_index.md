@@ -14,7 +14,7 @@ role: MSc Developmental Psychology & Psychopathology
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Social, Genetic & Psychiatry Centre <br> King's College London
+  - name: Social, Genetic & Psychiatry Centre \\ King's College London
     url: https://www.kcl.ac.uk/mental-health-and-psychological-sciences/about/departments/social-genetic-and-developmental-psychiatry
 
 # Short bio (displayed in user profile at end of posts)
