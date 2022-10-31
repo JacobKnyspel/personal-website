@@ -27,14 +27,14 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Gender
-      tag: Gender
+    - name: Gender Development
+      tag: Gender Development
     - name: Other
       tag: Other
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
-  columns: '2'
+  columns: '1'
 
   # Toggle between the various page layout types.
   #   1 = List
