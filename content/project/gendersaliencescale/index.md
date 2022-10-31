@@ -12,7 +12,9 @@ image:
   caption: Levi Hastings (2018)
   focal_point: Smart
 
-links: ''
+links: 
+  - name: View More
+    url: https://jacob-knyspel.netlify.app/project/gendersaliencescale/
 # - icon: twitter
   # icon_pack: fab
   # name: Follow
