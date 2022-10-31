@@ -27,8 +27,8 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Gender Development
-      tag: Gender Development
+    - name: Gender
+      tag: Gender
     - name: Other
       tag: Other
 
