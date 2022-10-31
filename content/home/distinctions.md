@@ -24,7 +24,6 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 item:
   - certificate_url:
-    date_end: ''
     date_start: '2022-07-01'
     description: '**Awarded** for achieving highest average grade in BSc Psychology (Hons)'
     organization: King's College London
@@ -37,7 +36,7 @@ item:
     organization: British Psychological Society
     organization_url: https://www.bps.org.uk/
     title: 'British Psychological Society Undergraduate Award'
-    url: ''
+    url: https://www.bps.org.uk/undergraduate-award
   - certificate_url: https://www.datacamp.com
     date_end: '2020-12-21'
     date_start: '2020-07-01'
