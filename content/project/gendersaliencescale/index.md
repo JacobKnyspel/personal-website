@@ -2,7 +2,7 @@
 title: Gender Salience Scale
 summary: Development and validation of a new quantitative scale.
 tags:
-  - Gender Development
+  - Gender
 date: '2021-11-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
