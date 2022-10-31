@@ -63,7 +63,7 @@ item:
     description: ''
     organization: King's College London
     organization_url: https://www.kcl.ac.uk/
-    title: 'King's Research Experience Award - Awarded'
+    title: 'King’s Research Experience Award - Awarded'
     url: ''
 
 design:
