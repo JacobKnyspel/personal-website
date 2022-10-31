@@ -25,31 +25,31 @@ date_format: Jan 2006
 item:
   - certificate_url:
     date_start: '2022-07-01'
-    description: 'Awarded for achieving highest average grade in BSc Psychology (Hons)'
+    description: ''
     organization: King's College London
     organization_url: https://www.kcl.ac.uk/
-    title: 'Dean’s Prize for Best Achievement in BSc Psychology'
+    title: 'Dean’s Prize for Best Achievement in BSc Psychology - Awarded'
     url: ''
   - certificate_url:
     date_start: '2022-07-01'
-    description: 'Nominated by Kings College London for achieving highest average grade in BSc Psychology (Hons)'
+    description: ''
     organization: British Psychological Society
     organization_url: https://www.bps.org.uk/
-    title: 'Undergraduate Award'
+    title: 'Undergraduate Award - Nominated'
     url: https://www.bps.org.uk/undergraduate-award
   - certificate_url: 
     date_start: '2022-07-01'
-    description: 'Nominated by Kings College London for achieving highest graded undergraduate dissertation'
+    description: ''
     organization: British Psychological Society (Cognitive Psychology Section)
     organization_url: https://www.bps.org.uk/member-networks/cognitive-psychology-section
-    title: 'Undergraduate Project Prize'
+    title: 'Undergraduate Project Prize - Nominated'
     url: https://www.bps.org.uk/member-networks/cognitive-psychology-section
   - certificate_url: 
     date_start: '2022-07-01'
-    description: 'Nominated by Kings College London for achieving highest graded undergraduate dissertation'
+    description: ''
     organization: Experimental Psychology Society
     organization_url: https://eps.ac.uk/
-    title: 'EPS/British Science Association Undergraduate Project Prize'
+    title: 'EPS/British Science Association Undergraduate Project Prize - Nominated'
     url: https://eps.ac.uk/eps-british-science-association-undergraduate-project-prize/
 
 design:
