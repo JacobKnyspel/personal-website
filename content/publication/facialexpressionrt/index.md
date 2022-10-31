@@ -29,7 +29,7 @@ summary: "Abstract: Previous research has established that basic facial expressi
 
 tags: ""
 
-featured: true
+featured: false
 
 # links:
 # - name: ""
