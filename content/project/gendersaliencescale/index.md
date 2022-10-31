@@ -13,12 +13,10 @@ image:
   focal_point: Smart
 
 links: 
-  - name: Read More
-    url: https://jacob-knyspel.netlify.app/project/gendersaliencescale/
   - icon: osf
     icon_pack: ai
-    name: Pre-Registration Coming Soon
-    url: https://jacob-knyspel.netlify.app/project/gendersaliencescale/
+    name: Pre-Registration (Coming Soon)
+    url: ''
 # - icon: twitter
   # icon_pack: fab
   # name: Follow
