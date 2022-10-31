@@ -74,5 +74,5 @@ slides: ""
 ---
 
 {{% callout note %}}
-This publication is still under review and as result this webpage may change in the future.
+This publication is still under review and as a result this webpage may change in the future.
 {{% /callout %}}
