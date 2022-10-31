@@ -25,6 +25,8 @@ interests:
   - Social Cognition
   - Neurodevelopmental Disorders
   - Gender Development
+  - Quantitative Methods
+  - History of Psychology
 
 # Education to show in About widget
 education:
