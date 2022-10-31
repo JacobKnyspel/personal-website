@@ -14,7 +14,7 @@ image:
 
 links: 
   - icon: venus-mars
-    icon_pack: fab
+    icon_pack: fa
     name: Gender Development
     url: ''
   - icon: osf
