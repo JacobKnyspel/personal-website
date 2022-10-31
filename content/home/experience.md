@@ -38,7 +38,7 @@ experience:
     location: London
     date_start: '2021-09-01'
     date_end: '2022-07-01'
-    description: I completed a self-led research project under the supervision of Dr. Charlotte Russell (King’s College London), which formed the basis of my final-year undergraduate dissertation. I used generalized linear mixed-effect modelling and likelihood-based model comparisons to provide new insight into the temporal mechanics of facial expression perception in healthy individuals. For this project I was awarded an *Undergraduate Poster Conference Prize* and nominated for the *EPS/BSA Undergraduate Project Prize* and *BPS Cognitive Section Undergraduate Project Prize*.
+    description: I completed a self-led research project under the supervision of [Dr. Charlotte Russell](https://www.kcl.ac.uk/people/charlotte-russell) (King’s College London), which formed the basis of my final-year undergraduate dissertation. I used generalized linear mixed-effect modelling and likelihood-based model comparisons to provide new insight into the temporal mechanics of facial expression perception in healthy individuals. For this project I was awarded an *Undergraduate Poster Conference Prize* and nominated for the *EPS/BSA Undergraduate Project Prize* and *BPS Cognitive Section Undergraduate Project Prize*.
 
   - title: King's Undergraduate Research Fellowship
     company: Department of Psychology, King's College London
@@ -47,7 +47,7 @@ experience:
     location: London
     date_start: '2021-06-01'
     date_end: '2021-07-31'
-    description: I completed a full-time summer research fellowship in the area of experimental social cognition under the co-supervision of Dr. Caroline Catmur (King’s College London) and Ms. Mirta Stantic (University of Oxford). My responsibilities included designing and programming experimental tasks, proposing recruitment strategies, analysing data, and contributing to a written report of the finished research. For this fellowship I was awarded a *King's Research Experience Award*.
+    description: I completed a full-time summer research fellowship in the area of experimental social cognition under the co-supervision of [Dr. Caroline Catmur](https://www.kcl.ac.uk/people/caroline-catmur) (King’s College London) and [Ms. Mirta Stantic](https://www.psy.ox.ac.uk/people/mirta-stantic) (University of Oxford). My responsibilities included designing and programming experimental tasks, proposing recruitment strategies, analysing data, and contributing to a written report of the finished research. For this fellowship I was awarded a *King's Research Experience Award*.
 
 design:
   columns: '1'
