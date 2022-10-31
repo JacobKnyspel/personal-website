@@ -9,7 +9,7 @@ date: '2021-11-01T00:00:00Z'
 external_link: ''
 
 image:
-  caption: Photo by rawpixel on Unsplash
+  caption: Levi Hastings (2018)
   focal_point: Smart
 
 links:
