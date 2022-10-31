@@ -4,7 +4,7 @@ authors:
 - Jacob Knyspel
 - Charlotte Russell
 author_notes: 
-- "Social, Genetic & Developmental Psychiatry Centre, King's College London"
+- "Department of Psychology, King's College London"
 - "Department of Psychology, King's College London"
 date: "2022-01-01T00:00:00Z"
 doi: ""
