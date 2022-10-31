@@ -51,6 +51,20 @@ item:
     organization_url: https://eps.ac.uk/
     title: 'EPS/British Science Association Undergraduate Project Prize - Nominated'
     url: https://eps.ac.uk/eps-british-science-association-undergraduate-project-prize/
+  - certificate_url:
+    date_start: '2022-03-01'
+    description: ''
+    organization: King's College London
+    organization_url: https://www.kcl.ac.uk/
+    title: 'Undergraduate Poster Conference Prize - Awarded'
+    url: ''
+  - certificate_url:
+    date_start: '2021-12-01'
+    description: ''
+    organization: King's College London
+    organization_url: https://www.kcl.ac.uk/
+    title: 'King's Research Experience Award - Awarded'
+    url: ''
 
 design:
   columns: '1'
