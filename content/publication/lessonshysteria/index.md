@@ -4,8 +4,8 @@ authors:
 - Jacob Knyspel
 - Juliet Foster
 author_notes: 
-- "Institute of Psychiatry, Psychology and Neuroscience, King's College London"
-- "Institute of Psychiatry, Psychology and Neuroscience, King's College London"
+- "Social, Genetic & Developmental Psychiatry Centre, King's College London"
+- "Institute of Psychiatry, Psychology & Neuroscience, King's College London"
 date: "2022-01-01T00:00:00Z"
 doi: ""
 
