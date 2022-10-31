@@ -27,7 +27,7 @@ item:
     date_end: ''
     date_start: '2022-07-01'
     description: '**Awarded** for achieving highest average grade in BSc Psychology (Hons)'
-    organization: kcl
+    organization: king's_college_london
     organization_url: https://www.kcl.ac.uk/
     title: Dean’s Prize for Best Achievement in BSc Psychology
     url: ''
