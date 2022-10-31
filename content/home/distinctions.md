@@ -27,7 +27,7 @@ item:
     date_end: ''
     date_start: '2022-07-01'
     description: ''
-    organization: King's College London
+    organization: kcl
     organization_url: https://www.kcl.ac.uk/
     title: Dean’s Prize for Best Achievement in BSc Psychology
     url: ''
