@@ -44,6 +44,13 @@ item:
     organization_url: https://www.bps.org.uk/member-networks/cognitive-psychology-section
     title: 'Undergraduate Project Prize'
     url: https://www.bps.org.uk/member-networks/cognitive-psychology-section
+  - certificate_url: 
+    date_start: '2022-07-01'
+    description: 'Nominated by Kings College London for achieving highest graded undergraduate dissertation'
+    organization: Experimental Psychology Society
+    organization_url: https://eps.ac.uk/
+    title: 'EPS/British Science Association Undergraduate Project Prize'
+    url: https://eps.ac.uk/eps-british-science-association-undergraduate-project-prize/
 
 design:
   columns: '1'
