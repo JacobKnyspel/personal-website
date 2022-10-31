@@ -11,7 +11,7 @@ weight: 40
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
 title: 'Distinctions'
-subtitle: 'Awarded and Nominated'
+subtitle: 'Awards and Nominations'
 
 # Date format
 #   Refer to https://wowchemy.com/docs/customization/#date-format
@@ -25,14 +25,14 @@ date_format: Jan 2006
 item:
   - certificate_url:
     date_start: '2022-07-01'
-    description: '**Awarded** for achieving highest average grade in BSc Psychology (Hons)'
+    description: 'Awarded for achieving highest average grade in BSc Psychology (Hons)'
     organization: King's College London
     organization_url: https://www.kcl.ac.uk/
     title: 'Dean’s Prize for Best Achievement in BSc Psychology'
     url: ''
   - certificate_url:
     date_start: '2022-07-01'
-    description: '**Nominated** by Kings College London for achieving highest average grade in BSc Psychology (Hons)'
+    description: 'Nominated by Kings College London for achieving highest average grade in BSc Psychology (Hons)'
     organization: British Psychological Society
     organization_url: https://www.bps.org.uk/
     title: 'British Psychological Society Undergraduate Award'
