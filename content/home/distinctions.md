@@ -32,7 +32,6 @@ item:
     title: 'Dean’s Prize for Best Achievement in BSc Psychology'
     url: ''
   - certificate_url:
-    date_end: ''
     date_start: '2022-07-01'
     description: '**Nominated** by King's College London for achieving highest average grade in BSc Psychology (Hons)'
     organization: British Psychological Society
