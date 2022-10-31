@@ -13,7 +13,7 @@ image:
   focal_point: Smart
 
 links: 
-  - name: View More
+  - name: Read More
     url: https://jacob-knyspel.netlify.app/project/gendersaliencescale/
 # - icon: twitter
   # icon_pack: fab
