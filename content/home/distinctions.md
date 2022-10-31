@@ -11,7 +11,7 @@ weight: 40
 
 # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
 title: 'Distinctions'
-subtitle:
+subtitle: 'Awarded and Nominated'
 
 # Date format
 #   Refer to https://wowchemy.com/docs/customization/#date-format
