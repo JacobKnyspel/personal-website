@@ -33,7 +33,7 @@ item:
     url: ''
   - certificate_url:
     date_start: '2022-07-01'
-    description: '**Nominated** by King's College London for achieving highest average grade in BSc Psychology (Hons)'
+    description: '**Nominated** by Kings College London for achieving highest average grade in BSc Psychology (Hons)'
     organization: British Psychological Society
     organization_url: https://www.bps.org.uk/
     title: 'British Psychological Society Undergraduate Award'
