@@ -29,7 +29,6 @@ publication_types: ["3"]
 # Publication name and optional abbreviated publication name.
 publication: "Manuscript submitted for publication"
 publication_short: ""
-
 abstract: "A recently published test of face perception, the Oxford Face Matching Test, asks participants to make two judgements: whether two faces are of the same individual; and how perceptually similar the two faces are. In the present study, we sought to determine to what extent the test can be shortened by removing the perceptual similarity judgements, and whether this impacts test performance. In Experiment 1, participants completed two versions of the test, with and without similarity judgements, in separate sessions in counterbalanced order. The version without similarity judgements took approximately 40\% less time to complete. Performance on the matching judgements did not differ across versions and the correlation in accuracy across the two versions was comparable to the originally reported test-retest reliability value. Experiment 2 validated the version without similarity judgements against other measures, demonstrating moderate relationships with other face matching, memory and self-report face perception measures. These data indicate that a test version without the similarity judgements can substantially reduce administration time without impacting on test performance."
 
 # Summary. An optional shortened abstract.
