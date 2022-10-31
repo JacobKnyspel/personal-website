@@ -31,6 +31,14 @@ item:
     organization_url: https://www.kcl.ac.uk/
     title: 'Dean’s Prize for Best Achievement in BSc Psychology'
     url: ''
+  - certificate_url:
+    date_end: ''
+    date_start: '2022-07-01'
+    description: '**Nominated** by King's College London for achieving highest average grade in BSc Psychology (Hons)'
+    organization: British Psychological Society
+    organization_url: https://www.bps.org.uk/
+    title: 'British Psychological Society Undergraduate Award'
+    url: ''
   - certificate_url: https://www.datacamp.com
     date_end: '2020-12-21'
     date_start: '2020-07-01'
