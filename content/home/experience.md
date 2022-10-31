@@ -50,5 +50,5 @@ experience:
     description: I completed a full-time summer research fellowship in the area of experimental social cognition under the co-supervision of Dr. Caroline Catmur (King’s College London) and Ms. Mirta Stantic (University of Oxford). My responsibilities included designing and programming experimental tasks, proposing recruitment strategies, analysing data, and contributing to a written report of the finished research. For this fellowship I was awarded a *King's Research Experience Award*.
 
 design:
-  columns: '2'
+  columns: '1'
 ---
