@@ -13,9 +13,6 @@ image:
   focal_point: Smart
 
 links: 
-  - icon: venus-mars
-    icon_pack: fa
-    name: Gender Development
   - icon: osf
     icon_pack: ai
     name: Pre-Registration (Coming Soon)
