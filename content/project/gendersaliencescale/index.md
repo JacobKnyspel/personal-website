@@ -16,11 +16,9 @@ links:
   - icon: venus-mars
     icon_pack: fa
     name: Gender Development
-    url: ''
   - icon: osf
     icon_pack: ai
     name: Pre-Registration (Coming Soon)
-    url: ''
 # - icon: twitter
   # icon_pack: fab
   # name: Follow
