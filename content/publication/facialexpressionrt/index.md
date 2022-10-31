@@ -46,7 +46,7 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
 image:
-  caption: ""
+  caption: "Guillaume Duchenne de Boulogne (est. 1870s)"
   focal_point: ""
   preview_only: false
 
