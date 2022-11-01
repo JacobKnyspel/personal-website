@@ -13,9 +13,10 @@ image:
   focal_point: Smart
 
 links: 
-  - icon: ''
-    icon_pack: ''
-    name: ''
+  - icon: github
+    icon_pack: fab
+    name: StyleGAN3
+    url: https://github.com/NVlabs/stylegan3
 # - icon: twitter
   # icon_pack: fab
   # name: Follow
