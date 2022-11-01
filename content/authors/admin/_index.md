@@ -71,4 +71,4 @@ Hi! :wave: This is my (still work in progress) personal website where I post inf
 
 I'm currently studying the MSc Developmental Psychology & Psychology at King's College London, where I'm choosing to specialise in behavioural and statistical genetics research methods. I'm also currently the lead researcher on the Gender Salience Scale Project, which you read more about [here](https://jacob-knyspel.netlify.app/project/gender-salience-scale-project/). Prior to this, I graduated with a BSc Psychology from King's College London and gained research experience both inside and outside of my studies. In the future I am interested in pursuing further postgraduate research education.
 
-{{< icon name="download" pack="fas" >}} Download a .pdf file of my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}CV{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Download a .pdf file of my CV {{< staticref "uploads/demo_resume.pdf" "newtab" >}}here{{< /staticref >}}
