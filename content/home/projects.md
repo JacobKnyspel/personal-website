@@ -29,6 +29,8 @@ content:
       tag: '*'
     - name: Gender Development
       tag: Gender Development
+    - name: Social Cognition
+      tag: Social Cognition
     - name: Other
       tag: Other
 
