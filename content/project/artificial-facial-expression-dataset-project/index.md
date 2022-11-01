@@ -3,7 +3,7 @@ title: Artificial Facial Expression Dataset Project
 summary: Development of a new dataset of artificially generated facial expression images suitable for a wide range of psychological research.
 tags:
   - Social Cognition
-date: '2022-11-01T00:00:00Z'
+date: '2022-01-01T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
 external_link: ''
