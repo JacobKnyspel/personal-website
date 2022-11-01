@@ -9,7 +9,7 @@ date: '2022-11-01T00:00:00Z'
 external_link: ''
 
 image:
-  caption: NVidia (2018)
+  caption: github.com/NVlabs/ffhq-dataset
   focal_point: Smart
 
 links: 
