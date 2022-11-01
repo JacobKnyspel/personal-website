@@ -73,4 +73,4 @@ I'm currently studying the MSc Developmental Psychology & Psychology at King's C
 
 Prior to this, I graduated with a BSc Psychology from King's College London and gained research experience both inside and outside of my studies. In the future I am interested in pursuing further postgraduate research education.
 
-{{< icon name="download" pack="fas" >}} Download a .pdf file of my CV {{< staticref "uploads/demo_resume.pdf" "newtab" >}}here{{< /staticref >}}
+{{< icon name="download" pack="fas" >}} Download a {{< staticref "uploads/demo_resume.pdf" "newtab" >}}.pdf copy{{< /staticref >}} of my CV
