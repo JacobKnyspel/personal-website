@@ -1,5 +1,5 @@
 ---
-title: Gender Salience Scale
+title: Gender Salience Scale Project
 summary: Development and validation of a new quantitative scale of gender salience, the importance of gender to individuals in everyday life.
 tags:
   - Gender Development
