@@ -10,7 +10,7 @@ image:
 But first, what would our regression look like if we had stuck to using OLS estimation? Remember that in simple linear regression, we are attempting to estimate a linear relationship between a predictor variable {{< math >}}$x${{< /math >}} and an outcome variable {{< math >}}$y${{< /math >}} using the following general model...
 
 {{< math >}}
-$$y_i=\alpha+\beta x_i+\varepsilon_i$$
+$$y=\alpha+\beta x$$
 {{< /math >}}
 
 ...where {{< math >}}$\alpha${{< /math >}} is the intercept value and {{< math >}}$\beta${{< /math >}} is the regression coefficient for the predictor variable {{< math >}}$x${{< /math >}}. This model is the exact same for OLS and WLS regression - the only difference between the two methods is the way in which the intercept value {{< math >}}$\alpha${{< /math >}} and the regression coefficient {{< math >}}$\beta${{< /math >}} are estimated. In OLS, these parameters are estimated as follows...
@@ -19,6 +19,8 @@ $$y_i=\alpha+\beta x_i+\varepsilon_i$$
 $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\right)}}{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)^2}}$$
 $$\alpha={\bar{y}}-\beta{\bar{x}}$$
 {{< /math >}}
+
+This can be done very straightforwardly, since no information is needed other than the individual values within each variable and the mean values of each variable. 
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
