@@ -9,6 +9,11 @@ image:
 
 {{< math >}}
 $$y_i=\alpha+\beta x_i+\varepsilon_i$$
+{{< /math >}}
+
+where \alpha is the intercept value and \beta is the regression coefficient for the predictor {{< math >}}x{{< /math >}}.
+
+{{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\right)}}{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)^2}}$$
 $$\alpha={\bar{y}}-\beta{\bar{x}}$$
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
@@ -16,6 +21,7 @@ $$\alpha={\bar{y}}_w-\beta{\bar{x}}_w$$
 $${\bar{x}}_w=\frac{\sum_{i=1}^{n}{w_ix_i}}{\sum_{i=1}^{n}w_i}$$
 $${\bar{y}}_w=\frac{\sum_{i=1}^{n}{w_iy_i}}{\sum_{i=1}^{n}w_i}$$
 {{< /math >}}
+
 
 Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
 
