@@ -20,7 +20,12 @@ $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\rig
 $$\alpha={\bar{y}}-\beta{\bar{x}}$$
 {{< /math >}}
 
-This can be done very straightforwardly, since no information is needed to use OLS estimation other than the individual values within each variable and the mean values of each variable. So let's enter the values from our IMDb dataset to see if we can estimate the relationship between movie year ({{< math >}}$x${{< /math >}}) and movie rating ({{< math >}}$y${{< /math >}})...
+This can be done very straightforwardly, since else nothing is needed to use OLS estimation other than the individual values within each variable and the mean values of each variable. So let's enter the values from our IMDb dataset and see if we can estimate the relationship between movie year ({{< math >}}$x${{< /math >}}) and movie rating ({{< math >}}$y${{< /math >}})...
+
+{{< math >}}
+$$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{2002.79}\right)\left(y_i-{6.76}\right)}}{\sum_{i=1}^{n}{\left(x_i-{2002.79}\right)^2}}$$
+$$\alpha={\bar{y}}-\beta{\bar{x}}$$
+{{< /math >}}
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
