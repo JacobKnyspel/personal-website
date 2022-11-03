@@ -4,7 +4,7 @@ date: 2022-11-01
 math: true
 image:
   placement: 1
-  caption: "https://unsplash.com/photos/OGZtQF8iC0g"
+  caption: "unsplash.com"
 ---
 
 Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
