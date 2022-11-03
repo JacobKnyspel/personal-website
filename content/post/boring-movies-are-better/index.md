@@ -3,7 +3,7 @@ title: Proving that boring films are better with weighted least squares (WLS) re
 date: 2022-11-01
 math: true
 image:
-  placement: 2
+  placement: 1
   caption: "https://unsplash.com/photos/OGZtQF8iC0g"
 ---
 
