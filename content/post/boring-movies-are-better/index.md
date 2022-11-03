@@ -20,7 +20,7 @@ $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\rig
 $$\alpha={\bar{y}}-\beta{\bar{x}}$$
 {{< /math >}}
 
-This can be done very straightforwardly, since all we need is the individual values within each variable, {{< math >}}$x_i${{< /math >}} and {{< math >}}$y_i${{< /math >}}, and the mean values of each variable, {{< math >}}$\bar{x}${{< /math >}} and {{< math >}}$\bar{y}${{< /math >}}. Let's enter the values from our IMDb dataset and see if we can estimate the relationship between movie year {{< math >}}$x${{< /math >}} and movie rating {{< math >}}$y${{< /math >}}...
+This can be done very straightforwardly, since all we need is the individual values within each variable and the mean values of each variable, {{< math >}}$\bar{x}${{< /math >}} and {{< math >}}$\bar{y}${{< /math >}}. Let's enter the values from our IMDb dataset and see if we can estimate the relationship between movie year {{< math >}}$x${{< /math >}} and movie rating {{< math >}}$y${{< /math >}}...
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{2002.79}\right)\left(y_i-{6.76}\right)}}{\sum_{i=1}^{n}{\left(x_i-{2002.79}\right)^2}}= \frac{-24542.44}{1449355} = -0.017$$
