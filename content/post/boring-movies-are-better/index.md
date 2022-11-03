@@ -9,6 +9,8 @@ image:
 
 {{< math >}}
 $$y_i=\alpha+\beta x_i+\varepsilon_i$$
+$$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\right)}}{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)^2}}$$
+$$\alpha={\bar{y}}-\beta{\bar{x}}$$
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
 $$\alpha={\bar{y}}_w-\beta{\bar{x}}_w$$
 $${\bar{x}}_w=\frac{\sum_{i=1}^{n}{w_ix_i}}{\sum_{i=1}^{n}w_i}$$
