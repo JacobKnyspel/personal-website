@@ -7,6 +7,10 @@ image:
   caption: "unsplash.com"
 ---
 
+{{< math >}}
+$$\beta_{1} = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
+{{< /math >}}
+
 Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
 
 **Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
