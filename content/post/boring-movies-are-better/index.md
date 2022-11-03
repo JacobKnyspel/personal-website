@@ -10,6 +10,8 @@ image:
 {{< math >}}
 $$\beta_{1} = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
 $$\alpha={\bar{y}}_w-\beta_1{\bar{x}}_w$$
+$${\bar{x}}_w=\frac{\sum_{i=1}^{n}{w_ix_i}}{\sum_{i=1}^{n}w_i}$$
+$${\bar{y}}_w=\frac{\sum_{i=1}^{n}{w_iy_i}}{\sum_{i=1}^{n}w_i}$$
 {{< /math >}}
 
 Wowchemy is designed to give technical content creators a seamless experience. You can focus on the content and Wowchemy handles the rest.
