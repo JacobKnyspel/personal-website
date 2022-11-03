@@ -28,7 +28,7 @@ $$\alpha = {6.76}+0.017\times{2002.79} = 40.670$$
 $$y = 40.670 - 0.017 x$$
 {{< /math >}}
 
-Yep, looks like we can! Using OLS estimation, we were able to produce an intercept value of {{< math >}}$\alpha = 40.670${{< /math >}}, which means that in the year 0 the estimated mean movie rating would have been 40.670 out of 10 (impressive!). We also produced a regression coefficient of {{< math >}}$\beta = -0.017${{< /math >}}, meaning that for every 1 year that goes by, the estimated mean movie rating decreases by 0.017.
+Looks like we can! Using OLS estimation, we were able to produce an intercept value of {{< math >}}$\alpha = 40.670${{< /math >}}, which means that in the year 0 the estimated mean movie rating would have been 40.670 out of 10 (impressive!). We also produced a regression coefficient of {{< math >}}$\beta = -0.017${{< /math >}}, meaning that for every 1 year that goes by, the estimated mean movie rating decreases by 0.017.
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
