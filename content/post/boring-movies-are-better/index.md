@@ -23,7 +23,7 @@ $$\alpha={\bar{y}}-\beta{\bar{x}}$$
 This can be done very straightforwardly, since all we need is the individual values within each variable and the mean values of each variable. Let's enter the values from our IMDb dataset and see if we can estimate the relationship between movie year {{< math >}}$x${{< /math >}} and movie rating {{< math >}}$y${{< /math >}}...
 
 {{< math >}}
-$$\beta = \frac{-24542.44}{1449355} = -0.017$$
+$$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{2002.79}\right)\left(y_i-{6.76}\right)}}{\sum_{i=1}^{n}{\left(x_i-{2002.79}\right)^2}}= \frac{-24542.44}{1449355} = -0.017$$
 $$\alpha = {6.76}+0.017\times{2002.79} = 40.670$$
 $$y = 40.670 - 0.017 x$$
 {{< /math >}}
