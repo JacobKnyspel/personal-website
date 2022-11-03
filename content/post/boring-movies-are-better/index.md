@@ -7,7 +7,7 @@ image:
   caption: "unsplash.com"
 ---
 
-First, remember that in simple linear regression, whether OLS or WLS regression, we are attempting to estimate a linear relationship between a predictor {{< math >}}$x${{< /math >}} and an outcome {{< math >}}$y${{< /math >}}, which takes the form of the following model...
+First, remember that in simple linear regression, including both OLS and WLS regression, we are attempting to estimate a linear relationship between a predictor {{< math >}}$x${{< /math >}} and an outcome {{< math >}}$y${{< /math >}}, which takes the form of the following model...
 
 {{< math >}}
 $$y_i=\alpha+\beta x_i+\varepsilon_i$$
