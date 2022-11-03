@@ -13,7 +13,7 @@ But first, what would our regression look like if we had stuck to using OLS esti
 $$y=\alpha+\beta x$$
 {{< /math >}}
 
-...where {{< math >}}$\alpha${{< /math >}} is the intercept value and {{< math >}}$\beta${{< /math >}} is the regression coefficient for the predictor variable {{< math >}}$x${{< /math >}}. This model is the exact same for OLS and WLS regression — the only difference between the two is the way in which the intercept value {{< math >}}$\alpha${{< /math >}} and the regression coefficient {{< math >}}$\beta${{< /math >}} are estimated. In OLS, they are estimated as follows...
+...where {{< math >}}$\alpha${{< /math >}} is the intercept and {{< math >}}$\beta${{< /math >}} is the coefficient for the predictor variable {{< math >}}$x${{< /math >}}. This model is the exact same for OLS and WLS regression — the only difference between the two is the way in which the intercept {{< math >}}$\alpha${{< /math >}} and the coefficient {{< math >}}$\beta${{< /math >}} are estimated. In OLS, they are estimated as follows...
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\right)}}{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)^2}}$$
@@ -27,6 +27,8 @@ $$\beta = \frac{-24542.44}{1449355} = -0.017$$
 $$\alpha = {6.76}+0.017\times{2002.79} = 40.670$$
 $$y = 40.670 - 0.017 x$$
 {{< /math >}}
+
+Yep, looks like we can! Using OLS estimation, we were able to produce an intercept value of {{< math >}}$\alpha = 40.670${{< /math >}}, which means that in the year 0 the estimated mean movie rating would have been 40.670 out of 10 (impressive!). We also produced a regression coefficient of {{< math >}}$\beta = -0.017${{< /math >}}, meaning that for every 1 year that goes by, the estimated mean movie rating decreases by 0.017.
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
