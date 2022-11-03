@@ -13,7 +13,7 @@ But first, what would our regression look like if we had stuck to using OLS esti
 $$y=\alpha+\beta x$$
 {{< /math >}}
 
-...where {{< math >}}$\alpha${{< /math >}} is the intercept value and {{< math >}}$\beta${{< /math >}} is the regression coefficient for the predictor variable {{< math >}}$x${{< /math >}}. This model is the exact same for OLS and WLS regression - the only difference between the two methods is the way in which the intercept value {{< math >}}$\alpha${{< /math >}} and the regression coefficient {{< math >}}$\beta${{< /math >}} are estimated. In OLS, they are estimated as follows...
+...where {{< math >}}$\alpha${{< /math >}} is the intercept value and {{< math >}}$\beta${{< /math >}} is the regression coefficient for the predictor variable {{< math >}}$x${{< /math >}}. This model is the exact same for OLS and WLS regression - the only difference between the two is the way in which the intercept value {{< math >}}$\alpha${{< /math >}} and the regression coefficient {{< math >}}$\beta${{< /math >}} are estimated. In OLS, they are estimated as follows...
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\right)}}{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)^2}}$$
