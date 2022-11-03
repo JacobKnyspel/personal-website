@@ -25,6 +25,7 @@ This can be done very straightforwardly, since else nothing is needed to use OLS
 {{< math >}}
 $$\beta = \frac{-24542.44}{1449355} = -0.017$$
 $$\alpha = {6.76}+0.017\times{2002.79} = 40.670$$
+$$y = 40.670 - 0.017 x$$
 {{< /math >}}
 
 {{< math >}}
