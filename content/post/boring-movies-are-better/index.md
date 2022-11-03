@@ -8,8 +8,8 @@ image:
 ---
 
 {{< math >}}
-$$\beta_{1} = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
-$$\alpha={\bar{y}}_w-\beta_1{\bar{x}}_w$$
+$$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
+$$\alpha={\bar{y}}_w-\beta{\bar{x}}_w$$
 $${\bar{x}}_w=\frac{\sum_{i=1}^{n}{w_ix_i}}{\sum_{i=1}^{n}w_i}$$
 $${\bar{y}}_w=\frac{\sum_{i=1}^{n}{w_iy_i}}{\sum_{i=1}^{n}w_i}$$
 {{< /math >}}
