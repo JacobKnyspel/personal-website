@@ -24,7 +24,7 @@ This can be done very straightforwardly, since else nothing is needed to use OLS
 
 {{< math >}}
 $$\beta = \frac{-24542.44}{1449355} = -0.017$$
-$$\alpha={\bar{y}}-\beta{\bar{x}}$$
+$$\alpha={6.76}+0.017\times2002.79}$$
 {{< /math >}}
 
 {{< math >}}
