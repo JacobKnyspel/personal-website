@@ -7,17 +7,20 @@ image:
   caption: "unsplash.com"
 ---
 
-First, remember that in simple linear regression, including both OLS and WLS regression, we are attempting to estimate a linear relationship between a predictor {{< math >}}$x${{< /math >}} and an outcome {{< math >}}$y${{< /math >}}, which takes the form of the following model...
+But first, what would our results look like if we had stuck to using OLS regression? Remember that in simple linear regression, we are attempting to estimate a linear relationship between a predictor {{< math >}}$x${{< /math >}} and an outcome {{< math >}}$y${{< /math >}} using the following general model...
 
 {{< math >}}
 $$y_i=\alpha+\beta x_i+\varepsilon_i$$
 {{< /math >}}
 
-...where {{< math >}}$\alpha${{< /math >}} is the intercept value and {{< math >}}$\beta${{< /math >}} is the regression coefficient for the predictor {{< math >}}$x${{< /math >}}.
+...where {{< math >}}$\alpha${{< /math >}} is the intercept value and {{< math >}}$\beta${{< /math >}} is the regression coefficient for the predictor {{< math >}}$x${{< /math >}}. This general model is the exact same for OLS and WLS regression - the only difference between the two methods is the way in which the intercept value {{< math >}}$\alpha${{< /math >}} and the regression coefficient {{< math >}}$\beta${{< /math >}} are estimated. In OLS, these parameters are estimated as follows:
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\right)}}{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)^2}}$$
 $$\alpha={\bar{y}}-\beta{\bar{x}}$$
+{{< /math >}}
+
+{{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
 $$\alpha={\bar{y}}_w-\beta{\bar{x}}_w$$
 $${\bar{x}}_w=\frac{\sum_{i=1}^{n}{w_ix_i}}{\sum_{i=1}^{n}w_i}$$
