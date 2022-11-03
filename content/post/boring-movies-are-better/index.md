@@ -7,7 +7,7 @@ image:
   caption: "unsplash.com"
 ---
 
-But first, what would our regression look like if we had stuck to using OLS estimation? Remember that in simple linear regression, we are attempting to estimate a linear relationship between a predictor variable {{< math >}}$x${{< /math >}} and an outcome variable {{< math >}}$y${{< /math >}} using the following general model...
+But first, what would our regression look like if we had stuck to using OLS estimation? Remember that in simple linear regression, we are trying to estimate a linear relationship between a predictor variable {{< math >}}$x${{< /math >}} and an outcome variable {{< math >}}$y${{< /math >}} using the following general model...
 
 {{< math >}}
 $$y=\alpha+\beta x$$
@@ -20,7 +20,7 @@ $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\rig
 $$\alpha={\bar{y}}-\beta{\bar{x}}$$
 {{< /math >}}
 
-This can be done very straightforwardly, since nothing else is needed to use OLS estimation other than the individual values within each variable and the mean values of each variable. So let's enter the values from our IMDb dataset and see if we can estimate the relationship between movie year ({{< math >}}$x${{< /math >}}) and movie rating ({{< math >}}$y${{< /math >}})...
+This can be done very straightforwardly, since nothing else is needed to use OLS estimation other than the individual values within each variable and the mean values of each variable. So let's enter the values from our IMDb dataset and see if we can estimate the relationship between movie year {{< math >}}$x${{< /math >}} and movie rating {{< math >}}$y${{< /math >}}...
 
 {{< math >}}
 $$\beta = \frac{-24542.44}{1449355} = -0.017$$
