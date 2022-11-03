@@ -7,11 +7,13 @@ image:
   caption: "unsplash.com"
 ---
 
+First, remember that in simple linear regression, whether OLS or WLS regression, we are attempting to estimate a linear relationship between a predictor {{< math >}}$x${{< /math >}} and an outcome {{< math >}}$y${{< /math >}}, which takes the form of the following model...
+
 {{< math >}}
 $$y_i=\alpha+\beta x_i+\varepsilon_i$$
 {{< /math >}}
 
-where {{< math >}}$\alpha${{< /math >}} is the intercept value and {{< math >}}$\beta${{< /math >}} is the regression coefficient for the predictor {{< math >}}$x${{< /math >}}.
+...where {{< math >}}$\alpha${{< /math >}} is the intercept value and {{< math >}}$\beta${{< /math >}} is the regression coefficient for the predictor {{< math >}}$x${{< /math >}}.
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\right)}}{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)^2}}$$
