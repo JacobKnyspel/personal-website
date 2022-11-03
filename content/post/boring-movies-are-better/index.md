@@ -1,5 +1,5 @@
 ---
-title: Proving that Boring Films are Better with Weighted Least Squares (WLS) Regression
+title: Proving that Boring Movies are Better with Weighted Least Squares (WLS) Regression
 date: 2022-11-01
 math: true
 image:
