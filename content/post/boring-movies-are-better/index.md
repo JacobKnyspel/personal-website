@@ -57,10 +57,10 @@ Multiple R-squared:  0.0851,	Adjusted R-squared:  0.08493
 F-statistic: 517.1 on 1 and 5560 DF,  p-value: < 2.2e-16
 ```
 
-Sure enough, the intercept and coefficient values that *R* produces are exactly the same as our own. We can also see that there is a statistically significant relationship between movie year and movie rating, as shown by the calculated *p*-value of 2.2e-16, which is the smallest possible value that *R* will display by default.
+Sure enough, the intercept and coefficient values that *R* outputs are exactly the same as our own. We can also see that there is a statistically significant relationship between movie year and movie rating, as shown by the calculated *p*-value of 2.2e-16, which is the smallest possible value that *R* will display by default. If we want to calculate the {{< math >}}$\eta^2${{< /math >}} effect size of this relationship with confidence intervals, we can use the `eta_squared()` function from the `effectsize` package imported earlier, specifying that our alternative hypothesis is *two-sided*. We do not need to differentiate between {{< math >}}$\eta^2${{< /math >}} and {{< math >}}$\eta_p^2${{< /math >}} because in simple linear regression such as this the two are equivalent.
 
 ```R
-summary(lm.1.1)
+eta_squared(lm.1.1, alternative = "two.sided")
 ```
 
 {{< math >}}
