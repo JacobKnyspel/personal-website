@@ -77,7 +77,7 @@ Parameter Eta2         CI     CI_low       CI_high
 ```
 {{< /spoiler >}}
 
-Based on these outputs, we can say that a small yet significant negative relationship is observed between movie year and movie rating when using OLS estimation, {{< math >}}$t${{< /math >}}(5560) = -22.74, {{< math >}}$p${{< /math >}} < .001,  {{< math >}}$\eta^2${{< /math >}} = .085, 95\% CI = [.072, .099].
+Based on these outputs, we can say that a small yet significant negative relationship is observed between movie year and movie rating when using OLS estimation, {{< math >}}$\beta${{< /math >}} = -0.017, {{< math >}}$t${{< /math >}}(5560) = -22.74, {{< math >}}$p${{< /math >}} < .001,  {{< math >}}$\eta^2${{< /math >}} = .085, 95\% CI = [.072, .099].
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
