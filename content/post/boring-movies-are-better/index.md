@@ -30,20 +30,37 @@ $$y = 40.670 - 0.017 x$$
 
 Looks like we can! Using OLS estimation, we produced a coefficient value of {{< math >}}$\beta = -0.017${{< /math >}}, which means that for every 1 year that goes by, movie ratings are estimated to decrease by 0.017. We also produced an intercept value of {{< math >}}$\alpha = 40.670${{< /math >}}, which means that in the year 0, the estimated movie rating would have been 40.670 out of 10 (impressive!). 
 
-Now let's see if we can get the same results in *R*. We use the `lm()` function to create a linear regression model with `Rating` as our outcome variable, `Year` as our predictor variable, and `imdb_data` as our dataset. By default this function will use OLS estimation.
+Now let's see if we can get the same results in *R*. We use the `lm()` function to create a linear regression model with `Rating` as our outcome variable, `Year` as our predictor variable, and `imdb_data` as our dataset. By default this function will use OLS estimation. We can then use the `summary()` function to output a full description of our model.
 
 ```R
 lm.1.1 <- lm(Rating ~ Year, data = imdb.data)
-lm.1.1
+summary(lm.1.1)
 ```
 
 ```
 Call:
 lm(formula = Rating ~ Year, data = imdb.data)
 
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-5.5153 -0.4983  0.0630  0.5985  2.8694 
+
 Coefficients:
-(Intercept)         Year  
-   40.66986     -0.01693  
+              Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 40.6698590  1.4913895   27.27   <2e-16 ***
+Year        -0.0169334  0.0007446  -22.74   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.8965 on 5560 degrees of freedom
+Multiple R-squared:  0.0851,	Adjusted R-squared:  0.08493 
+F-statistic: 517.1 on 1 and 5560 DF,  p-value: < 2.2e-16
+```
+
+Sure enough, the intercept and coefficient values that *R* produces are exactly the same as our own. We can also see that there is a statistically significant relationship between movie year and movie rating, as shown by the calculated *p*-value of 2.2e-16, which is the smallest possible value that *R* will display by default.
+
+```R
+summary(lm.1.1)
 ```
 
 {{< math >}}
