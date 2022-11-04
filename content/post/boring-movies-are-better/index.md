@@ -58,7 +58,7 @@ F-statistic: 517.1 on 1 and 5560 DF,  p-value: < 2.2e-16
 ```
 {{< /spoiler >}}
 
-Sure enough, the intercept and coefficient values that *R* outputs are exactly the same as our own. We can also see that there is a statistically significant relationship between movie year and movie rating, as shown by the calculated {{< math >}}$p${{< /math >}} value of 2.2e-16, which is the smallest possible value that *R* will display by default.
+Sure enough, the intercept and coefficient values that the `lm()` function outputs are exactly the same as our own. We can also see that there is a statistically significant relationship between movie year and movie rating, as shown by the calculated {{< math >}}$p${{< /math >}} value of 2.2e-16, which is the smallest possible value that *R* will display by default.
 
 If we want to calculate the {{< math >}}$\eta^2${{< /math >}} effect size of this relationship along with its confidence intervals, we can use the `eta_squared()` function from the `effectsize` package we imported earlier, specifying that our alternative hypothesis is *two-sided*. We do not need to differentiate between {{< math >}}$\eta^2${{< /math >}} and its standardised counterpart {{< math >}}$\eta_p^2${{< /math >}} for this because in simple linear regression the two are equivalent.
 
