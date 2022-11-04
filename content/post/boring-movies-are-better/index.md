@@ -65,12 +65,13 @@ If we want to calculate the {{< math >}}$\eta^2${{< /math >}} effect size of thi
 ```R
 eta_squared(lm.1.1, alternative = "two.sided")
 ```
-
+{{< spoiler text="Click to view output" >}}
 ```
 Parameter | Eta2 |       95% CI
 -------------------------------
 Year      | 0.09 | [0.07, 0.10]
 ```
+{{< /spoiler >}}
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
