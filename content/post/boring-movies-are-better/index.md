@@ -77,7 +77,19 @@ Parameter Eta2         CI     CI_low       CI_high
 ```
 {{< /spoiler >}}
 
-Based on these outputs, we can say that a small yet significant negative relationship is observed between movie year and movie rating when using OLS estimation, {{< math >}}$\beta${{< /math >}} = -0.017, {{< math >}}$t${{< /math >}}(5560) = -22.74, {{< math >}}$p${{< /math >}} < .001,  {{< math >}}$\eta^2${{< /math >}} = .085, 95\% CI = [.072, .099].
+Based on these outputs, we can say that a small yet significant negative relationship is observed between movie year and movie rating when using OLS estimation, {{< math >}}$\beta${{< /math >}} = -0.017, {{< math >}}$t${{< /math >}}(5560) = -22.74, {{< math >}}$p${{< /math >}} < .001,  {{< math >}}$\eta^2${{< /math >}} = .085, 95\% CI = [.072, .099]. This all looks fine, but remember that we previously said that OLS estimation would be completely inappropriate for this regression, given the heteroskedasdicity we observed in our scatterplot. Now that we have build a model using OLS estimation, we can generate a fitted vs residual plot which should show us the same thing...
+
+```R
+ggplot(data = lm.1.1, aes(x = fitted(lm.1.1), y = resid(lm.1.1))) +
+  geom_point(alpha = 0.2) +
+  geom_hline(yintercept = 0) +
+  labs(x = "Fitted", y = "Residuals", title = "Fitted vs Residuals Plot")
+```
+{{< spoiler text="Click to view output" >}}
+{{< /spoiler >}}
+
+Like our original scatterplot, this fitted vs residual plot is clearly fan-shaped, which is indicative of heteroskedasdicity and suggests that we are not fulfilling the statistical assumptions of OLS estimation. But if this is the case, how come OLS estimation gave us some results, and statistically significant results at that?
+Well, this speaks to an unfortunate truth about much of statistics - just because we are able to produce a statistically significant result using a particular method does not mean that it is the best method to use, or even a correct method to use. 
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
