@@ -60,20 +60,24 @@ F-statistic: 517.1 on 1 and 5560 DF,  p-value: < 2.2e-16
 
 Sure enough, the intercept and coefficient values that the `lm()` function outputs are exactly the same as our own. We can also see that there is a statistically significant relationship between movie year and movie rating, as shown by the calculated {{< math >}}$p${{< /math >}} value of 2.2e-16, which is the smallest possible value that *R* will display by default.
 
-If we want to calculate the {{< math >}}$\eta^2${{< /math >}} effect size of this relationship along with its confidence intervals, we can use the `eta_squared()` function from the `effectsize` package we imported earlier, specifying that our alternative hypothesis is *two-sided*. We do not need to differentiate between {{< math >}}$\eta^2${{< /math >}} and its standardised counterpart {{< math >}}$\eta_p^2${{< /math >}} for this because in simple linear regression the two are equivalent.
+If we want to calculate the {{< math >}}$\eta^2${{< /math >}} effect size of this relationship along with its confidence intervals, we can use the `eta_squared()` function from the `effectsize` package we imported earlier, specifying that our alternative hypothesis is *two-sided*. We do not need to differentiate between {{< math >}}$\eta^2${{< /math >}} and its standardised counterpart {{< math >}}$\eta_p^2${{< /math >}} for this because in simple linear regression the two are equivalent. We can also return the `eta_squared()` output as a matrix using the `as.matrix()` function if we want to view more than two decimals.
 
 ```R
 eta_squared(lm.1.1, alternative = "two.sided")
+as.matrix(eta_squared(lm.1.1, alternative = "two.sided"))
 ```
 {{< spoiler text="Click to view output" >}}
 ```
 Parameter | Eta2 |       95% CI
 -------------------------------
 Year      | 0.09 | [0.07, 0.10]
+
+Parameter Eta2         CI     CI_low       CI_high     
+"Year"    "0.08509522" "0.95" "0.07177453" "0.09920089"
 ```
 {{< /spoiler >}}
 
-Based on these outputs, we can say that a small yet significant negative relationship is observed between movie year and movie rating when using OLS estimation, {{< math >}}$t${{< /math >}}(5560) = -22.74, {{< math >}}$p${{< /math >}} < .001,  {{< math >}}$\eta^2${{< /math >}} = .09, 95\% CI = [.07, .10].
+Based on these outputs, we can say that a small yet significant negative relationship is observed between movie year and movie rating when using OLS estimation, {{< math >}}$t${{< /math >}}(5560) = -22.74, {{< math >}}$p${{< /math >}} < .001,  {{< math >}}$\eta^2${{< /math >}} = .085, 95\% CI = [.072, .099].
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
