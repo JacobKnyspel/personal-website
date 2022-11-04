@@ -58,9 +58,9 @@ F-statistic: 517.1 on 1 and 5560 DF,  p-value: < 2.2e-16
 ```
 {{< /spoiler >}}
 
-Sure enough, the intercept and coefficient values that the `lm()` function outputs are exactly the same as our own. We can also see that there is a statistically significant relationship between movie year and movie rating, as shown by the calculated {{< math >}}$p${{< /math >}} value of 2.2e-16, which is the smallest possible value that *R* will display by default.
+Sure enough, the intercept and coefficient values that the `lm()` function outputs are exactly the same as our own. We can also see that the relationship between movie year and movie rating is statistically significant, as shown by the calculated {{< math >}}$p${{< /math >}} value of 2.2e-16, which is the smallest possible value that *R* will display by default.
 
-If we want to calculate the {{< math >}}$\eta^2${{< /math >}} effect size of this relationship along with its confidence intervals, we can use the `eta_squared()` function from the `effectsize` package we imported earlier, specifying that our alternative hypothesis is *two-sided*. We do not need to differentiate between {{< math >}}$\eta^2${{< /math >}} and its standardised counterpart {{< math >}}$\eta_p^2${{< /math >}} for this because in simple linear regression the two are equivalent. We can also return the `eta_squared()` output as a matrix using the `as.matrix()` function if we want to view more than two decimals.
+If we want to calculate the {{< math >}}$\eta^2${{< /math >}} effect size of this relationship along with confidence intervals, we can use the `eta_squared()` function from the `effectsize` package we imported earlier, specifying that our alternative hypothesis is *two-sided*. We do not need to differentiate between {{< math >}}$\eta^2${{< /math >}} and its standardised counterpart {{< math >}}$\eta_p^2${{< /math >}} for this because in simple linear regression the two are equivalent. We can also return the `eta_squared()` output as a matrix using the `as.matrix()` function if we want to view more than two decimals.
 
 ```R
 eta_squared(lm.1.1, alternative = "two.sided")
@@ -77,9 +77,9 @@ Parameter Eta2         CI     CI_low       CI_high
 ```
 {{< /spoiler >}}
 
-Based on these outputs, we can say that a small yet significant negative relationship is observed between movie year and movie rating when using OLS estimation, {{< math >}}$\beta${{< /math >}} = -0.017, {{< math >}}$t${{< /math >}}(5560) = -22.74, {{< math >}}$p${{< /math >}} < .001,  {{< math >}}$\eta^2${{< /math >}} = .085, 95\% CI = [.072, .099]. 
+Based on these outputs, we can say that a small yet significant negative relationship is observed between movie year and movie rating when OLS estimation is used, {{< math >}}$\beta${{< /math >}} = -0.017, {{< math >}}$t${{< /math >}}(5560) = -22.74, {{< math >}}$p${{< /math >}} < .001,  {{< math >}}$\eta^2${{< /math >}} = .085, 95\% CI = [.072, .099]. 
 
-This all looks fine, but remember that we previously said that OLS estimation would be inappropriate for this regression, given the heteroskedasdicity we observed in our scatterplot. Now that we have build a model using OLS estimation, we can also generate a fitted vs residual plot using `ggplot` which should show us the same thing...
+This all looks fine, but remember that we previously said that OLS estimation would be inappropriate for this regression, given the heteroskedasdicity we observed in our scatterplot. Now that we have built a model using OLS estimation, we can also generate a fitted vs residual plot using `ggplot` which should show us the same problem...
 
 ```R
 ggplot(data = lm.1.1, aes(x = fitted(lm.1.1), y = resid(lm.1.1))) +
@@ -90,9 +90,9 @@ ggplot(data = lm.1.1, aes(x = fitted(lm.1.1), y = resid(lm.1.1))) +
 {{< spoiler text="Click to view output" >}}
 {{< /spoiler >}}
 
-Like our original scatterplot, this fitted vs residual plot is clearly fan-shaped, which is indicative of heteroskedasdicity and suggests that we are not fulfilling the statistical assumptions of OLS estimation. But if this is the case, then we might wonder how OLS estimation still managed to give us results, and statistically significant results at that? 
+Like our original scatterplot, this fitted vs residual plot is clearly fan-shaped, which is indicative of heteroskedasdicity and suggests that we are not fulfilling the statistical assumptions of OLS estimation. But if this is the case, we might wonder how OLS estimation still managed to give us results, and statistically significant results at that? 
 
-Well, this speaks to an unfortunate truth about much of statistics - just because we are able to produce a statistically significant result using a particular method does not mean that that method is the best method to use, or even a correct method to use. In other words, *R* doesn't know whether we are fulfilling the assumptions of the methods we use. That is *our* responsibility to ensure.
+Well, this speaks to an unfortunate truth about much of statistics — just because we are able to produce a statistically significant result using a particular method does not mean that that method is the best method to use, or even a correct method to use. In other words, *R* doesn't know whether we are fulfilling the assumptions of the methods we use. That is *our* responsibility to ensure.
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
