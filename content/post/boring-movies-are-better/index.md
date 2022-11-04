@@ -34,7 +34,7 @@ Now let's see if we can get the same results in *R*. We use the `lm()` function 
 
 ```R
 lm.1.1 <- lm(Rating ~ Year, data = imdb.data)
-summary(lm.1.1)
+lm.1.1
 ```
 
 Which gives us the following output...
@@ -43,20 +43,9 @@ Which gives us the following output...
 Call:
 lm(formula = Rating ~ Year, data = imdb.data)
 
-Residuals:
-    Min      1Q  Median      3Q     Max 
--5.5153 -0.4983  0.0630  0.5985  2.8694 
-
 Coefficients:
-              Estimate Std. Error t value Pr(>|t|)    
-(Intercept) 40.6698590  1.4913895   27.27   <2e-16 ***
-Year        -0.0169334  0.0007446  -22.74   <2e-16 ***
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.8965 on 5560 degrees of freedom
-Multiple R-squared:  0.0851,	Adjusted R-squared:  0.08493 
-F-statistic: 517.1 on 1 and 5560 DF,  p-value: < 2.2e-16
+(Intercept)         Year  
+   40.66986     -0.01693  
 ```
 
 {{< math >}}
