@@ -36,7 +36,7 @@ Now let's see if we can get the same results in *R*. We use the `lm()` function 
 lm.1.1 <- lm(Rating ~ Year, data = imdb.data)
 summary(lm.1.1)
 ```
-
+{{< spoiler text="Click to view output" >}}
 ```
 Call:
 lm(formula = Rating ~ Year, data = imdb.data)
@@ -56,6 +56,7 @@ Residual standard error: 0.8965 on 5560 degrees of freedom
 Multiple R-squared:  0.0851,	Adjusted R-squared:  0.08493 
 F-statistic: 517.1 on 1 and 5560 DF,  p-value: < 2.2e-16
 ```
+{{< /spoiler >}}
 
 Sure enough, the intercept and coefficient values that *R* outputs are exactly the same as our own. We can also see that there is a statistically significant relationship between movie year and movie rating, as shown by the calculated {{< math >}}$p${{< /math >}} value of 2.2e-16, which is the smallest possible value that *R* will display by default.
 
