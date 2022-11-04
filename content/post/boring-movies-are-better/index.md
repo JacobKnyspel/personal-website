@@ -30,7 +30,7 @@ $$y = 40.670 - 0.017 x$$
 
 Looks like we can! Using OLS estimation, we produced a coefficient value of {{< math >}}$\beta = -0.017${{< /math >}}, which means that for every 1 year that goes by, movie ratings are estimated to decrease by 0.017. We also produced an intercept value of {{< math >}}$\alpha = 40.670${{< /math >}}, which means that in the year 0, the estimated movie rating would have been 40.670 out of 10 (impressive!). 
 
-Now let's see if we can get the same results in *R*. We use the `lm()` function to create a linear regression model with `Rating` as our outcome variable, `Year` as our predictor variable, and `imdb_data` as our dataset.
+Now let's see if we can get the same results in *R*. We use the `lm()` function to create a linear regression model with `Rating` as our outcome variable, `Year` as our predictor variable, and `imdb_data` as our dataset. By default this function will use OLS estimation.
 
 ```R
 lm.1.1 <- lm(Rating ~ Year, data = imdb.data)
