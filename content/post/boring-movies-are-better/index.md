@@ -90,9 +90,9 @@ ggplot(data = lm.1.1, aes(x = fitted(lm.1.1), y = resid(lm.1.1))) +
 {{< spoiler text="Click to view output" >}}
 {{< /spoiler >}}
 
-Like our original scatterplot, this fitted vs residual plot is clearly fan-shaped, which is indicative of heteroskedasdicity and suggests that we are not fulfilling the statistical assumptions of OLS estimation. But if this is the case, then we might wonder how OLS estimation still gave us results, and statistically significant results at that? 
+Like our original scatterplot, this fitted vs residual plot is clearly fan-shaped, which is indicative of heteroskedasdicity and suggests that we are not fulfilling the statistical assumptions of OLS estimation. But if this is the case, then we might wonder how OLS estimation still managed to give us results, and statistically significant results at that? 
 
-Well, this speaks to an unfortunate truth about much of statistics - just because we are able to produce a statistically significant result using a particular method does not mean that that method is the best method to use, or even a correct method to use. In other words, *R* doesn't know whether we are fulfilling the assumptions of the methods we use. That is *our* responsibility.
+Well, this speaks to an unfortunate truth about much of statistics - just because we are able to produce a statistically significant result using a particular method does not mean that that method is the best method to use, or even a correct method to use. In other words, *R* doesn't know whether we are fulfilling the assumptions of the methods we use. That is *our* responsibility to ensure.
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
