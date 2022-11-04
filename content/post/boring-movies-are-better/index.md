@@ -7,7 +7,7 @@ image:
   caption: "unsplash.com"
 ---
 
-But first, what would our regression look like if we had stuck to using OLS estimation? Remember that in simple linear regression, we are trying to estimate a linear relationship between a predictor variable {{< math >}}$x${{< /math >}} and an outcome variable {{< math >}}$y${{< /math >}} using the following general model...
+But first, what would our regression look like if we stick to using OLS estimation? Remember that in simple linear regression, we are trying to estimate the linear relationship between a predictor variable {{< math >}}$x${{< /math >}} and an outcome variable {{< math >}}$y${{< /math >}} using the following general model...
 
 {{< math >}}
 $$y=\alpha+\beta x$$
@@ -20,7 +20,7 @@ $$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\rig
 $$\alpha={\bar{y}}-\beta{\bar{x}}$$
 {{< /math >}}
 
-This can be done very straightforwardly, since all we need is the individual values within each variable and the mean values of each variable, {{< math >}}$\bar{x}${{< /math >}} and {{< math >}}$\bar{y}${{< /math >}}. Let's enter the values from our IMDb dataset and see if we can estimate the relationship between movie year {{< math >}}$x${{< /math >}} and movie rating {{< math >}}$y${{< /math >}}...
+This can be done very straightforwardly, since all we need is the individual values within each variable and the mean values of each variable, {{< math >}}$\bar{x}${{< /math >}} and {{< math >}}$\bar{y}${{< /math >}}. Let's enter the values from our IMDb dataset and see if we can estimate the relationship between movie year and movie rating...
 
 {{< math >}}
 $$\beta = \frac{-24542.44}{1449355} = -0.017$$
@@ -28,7 +28,9 @@ $$\alpha = {6.76}+0.017\times{2002.79} = 40.670$$
 $$y = 40.670 - 0.017 x$$
 {{< /math >}}
 
-Looks like we can! Using OLS estimation, we produced a coefficient value of {{< math >}}$\beta = -0.017${{< /math >}}, which means that for every 1 year that goes by, the estimated mean movie rating decreases by 0.017. We also produced an intercept value of {{< math >}}$\alpha = 40.670${{< /math >}}, which means that in the year 0, the estimated mean movie rating would have been 40.670 out of 10 (impressive!).
+Looks like we can! Using OLS estimation, we produced a coefficient value of {{< math >}}$\beta = -0.017${{< /math >}}, which means that for every 1 year that goes by, movie ratings are estimated to decrease by 0.017. We also produced an intercept value of {{< math >}}$\alpha = 40.670${{< /math >}}, which means that in the year 0, the estimated movie rating would have been 40.670 out of 10 (impressive!). 
+
+Now let's see if we can get the same results in *R*. We use the `lm()` function to create a linear regression model with `Rating` as our outcome variable, `Year` as our predictor variable, and `imdb_data` as our dataset.
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
