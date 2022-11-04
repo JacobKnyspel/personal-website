@@ -73,7 +73,7 @@ Year      | 0.09 | [0.07, 0.10]
 ```
 {{< /spoiler >}}
 
-Based on these outputs, we can say that a small yet significant negative relationship is observed between movie year and movie rating when using OLS estimation, {{< math >}}$t\left(5560\right)=-22.74, p<.001,  \eta^2=.09, 95% CI${{< /math >}}
+Based on these outputs, we can say that a small yet significant negative relationship is observed between movie year and movie rating when using OLS estimation, {{< math >}}$t\left(5560\right)=-22.74, p<.001,  \eta^2=.09, 95\% CI = \left[.07, .10\right]${{< /math >}}
 
 {{< math >}}
 $$\beta = \frac{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)\left(y_i-{\bar{y}}_w\right)}}{\sum_{i=1}^{n}{w_i\left(x_i-{\bar{x}}_w\right)^2}}$$
