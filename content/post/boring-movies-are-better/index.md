@@ -37,8 +37,6 @@ lm.1.1 <- lm(Rating ~ Year, data = imdb.data)
 lm.1.1
 ```
 
-Which gives us the following output...
-
 ```
 Call:
 lm(formula = Rating ~ Year, data = imdb.data)
