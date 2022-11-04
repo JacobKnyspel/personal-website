@@ -33,9 +33,11 @@ Looks like we can! Using OLS estimation, we produced a coefficient value of {{< 
 Now let's see if we can get the same results in *R*. We use the `lm()` function to create a linear regression model with `Rating` as our outcome variable, `Year` as our predictor variable, and `imdb_data` as our dataset.
 
 ```R
-    lm.1.1 <- lm(Rating ~ Year, data = imdb.data)
-    summary(lm.1.1)
+lm.1.1 <- lm(Rating ~ Year, data = imdb.data)
+summary(lm.1.1)
 ```
+
+Which gives us the following output...
 
 ```
 Call:
