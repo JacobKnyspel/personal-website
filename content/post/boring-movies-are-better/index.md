@@ -16,7 +16,7 @@ $$y=\alpha+\beta x$$
 ...where {{< math >}}$\alpha${{< /math >}} is the intercept and {{< math >}}$\beta${{< /math >}} is the coefficient for the predictor variable {{< math >}}$x${{< /math >}}. This model is exactly the same for OLS and WLS regression — the only difference between the two is the way in which the intercept {{< math >}}$\alpha${{< /math >}} and the coefficient {{< math >}}$\beta${{< /math >}} are estimated. In OLS, they are estimated as follows...
 
 {{< math >}}
-$$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\right)}}{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)^2}} = \frac{n\sum{x_i}{y_i}-n\sum{x_i}n\sum{y_i}}{n\sum{x_{i}^{2}}-\left(\sum{x_i}\right)^2$$
+$$\beta = \frac{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)\left(y_i-{\bar{y}}\right)}}{\sum_{i=1}^{n}{\left(x_i-{\bar{x}}\right)^2}} = \frac{n\sum{x_i}{y_i}-n\sum{x_i}n\sum{y_i}}{n\sum{x_{i}^{2}}-\left(\sum{x_i}\right)^2}$$
 $$\alpha={\bar{y}}-\beta{\bar{x}}$$
 {{< /math >}}
 
