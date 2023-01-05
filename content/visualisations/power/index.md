@@ -5,7 +5,7 @@ tags:
   - Statistics
 math: true
 image:
-  placement: 1
+  placement: 0
   caption: ""
 ---
 
