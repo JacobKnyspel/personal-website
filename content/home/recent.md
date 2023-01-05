@@ -10,7 +10,7 @@ headless: true
 weight: 70
 
 title: Recent Publications
-subtitle: ''
+subtitle: View all publications [here](https://jacob-knyspel.netlify.app/publication/)
 
 content:
   # Filter on criteria
