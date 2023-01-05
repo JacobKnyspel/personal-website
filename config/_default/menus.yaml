@@ -20,7 +20,7 @@ main:
     url: '#recent'
     weight: 70
   - name: Contact
-    url: '#contact'
+    url: mailto:jacob.knyspel@kcl.ac.uk
     weight: 0
 
 # Link to a PDF of your resume/CV from the menu.
