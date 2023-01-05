@@ -4,7 +4,7 @@ date: 2023-01-05
 math: true
 image:
   placement: 1
-  caption: "unsplash.com"
+  caption: ""
 ---
 
 Statistical power refers to the probability of a statistical test correctly rejecting the null hypothesis when it is in fact false. It is influenced by the sample size used for a statistical test, the alpha level specified in a statistical test, and the effect size within the population of interest. Statistical power also influences various outcomes. Importantly, when statistical power is low, this has the following consequences:
