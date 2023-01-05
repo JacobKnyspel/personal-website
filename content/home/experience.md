@@ -60,7 +60,7 @@ experience:
         
         My responsibilities included: (i) designing the research, (ii) applying for ethical approval, (iii) building an online experiment, (iv) managing participant recruitment, (v) analysing experimental data, and (vi) writing a manuscript of the finished research.
         
-        For this project I was awarded an Undergraduate Poster Conference Prize and nominated for the [*EPS/BSA Undergraduate Project Prize*](#distinctions) and [*BPS Cognitive Section Undergraduate Project Prize*](#distinctions).
+        For this project I was awarded an [*Undergraduate Poster Conference Prize*](#distinctions) and nominated for the [*EPS/BSA Undergraduate Project Prize*](#distinctions) and [*BPS Cognitive Section Undergraduate Project Prize*](#distinctions).
 
   - title: King's Undergraduate Research Fellowship
     company: Department of Psychology, King's College London
