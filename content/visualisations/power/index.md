@@ -1,5 +1,5 @@
 ---
-title: Proving that Boring Movies are Better with Weighted Least Squares (WLS) Regression
+title: Visualising Statistical Power
 date: 2023-01-05
 math: true
 image:
