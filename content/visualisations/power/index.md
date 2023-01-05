@@ -18,6 +18,6 @@ In the visualisation below, you can observe the relationship between statistical
 
 <iframe height="900" width="100%" frameborder="no" src="https://jacob-knyspel.shinyapps.io/power-visualisation/"> </iframe>
 
-References
+**References**
 
 Cohen, J. (1988). 
