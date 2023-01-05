@@ -45,7 +45,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: mailto:jacob.knyspel@kcl.ac.uk
   - icon: orcid
     icon_pack: ai
     link: https://orcid.org/0000-0001-5600-4826
