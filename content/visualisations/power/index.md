@@ -14,6 +14,6 @@ Statistical power refers to the probability of a statistical test correctly reje
 - Decreased positive predictive value
 - Decreased negative predictive value
 
-In this visualisation, you can observe the relationship between statistical power and these consequences in an example where sample size and effect size remain constant.
+In the visualisation below, you can observe the relationship between statistical power and these consequences in an example where sample size and effect size remain constant.
 
 <iframe height="1000" width="100%" frameborder="no" src="https://jacob-knyspel.shinyapps.io/power-visualisation/"> </iframe>
