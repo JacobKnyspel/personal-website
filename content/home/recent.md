@@ -35,7 +35,3 @@ design:
   view: citation
   columns: '1'
 ---
-
-{{% callout note %}}
-Click to view [all publications](./publication/).
-{{% /callout %}}
