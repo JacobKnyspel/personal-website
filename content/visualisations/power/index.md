@@ -9,4 +9,4 @@ image:
 
 Test
 
-<iframe height="100%" width="100%" frameborder="no" src="https://jacob-knyspel.shinyapps.io/power-visualisation/"> </iframe>
+<iframe height="1000" width="100%" frameborder="no" src="https://jacob-knyspel.shinyapps.io/power-visualisation/"> </iframe>
