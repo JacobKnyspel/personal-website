@@ -1,6 +1,8 @@
 ---
 title: Visualising Statistical Power
 date: 2023-01-05
+tags:
+  - Statistics
 math: true
 image:
   placement: 1
