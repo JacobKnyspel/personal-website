@@ -31,9 +31,12 @@ tags: ""
 
 featured: true
 
-# links:
-# - name: ""
-#   url: ""
+links: 
+  - icon: ""
+    icon_pack: ""
+    name: View Abstract
+    url: https://jacob-knyspel.netlify.app/publication/lessonshysteria/
+
 url_pdf: ''
 url_code: ''
 url_dataset: ''
