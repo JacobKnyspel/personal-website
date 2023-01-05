@@ -10,7 +10,7 @@ headless: true
 weight: 50
 
 title: Research Projects
-subtitle: 'Past and Present'
+subtitle: ''
 
 content:
   # Page type to display. E.g. project.
