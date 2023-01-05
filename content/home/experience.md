@@ -23,9 +23,9 @@ date_format: Jan 2006
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
   - title: Independent Research Project
-    company: Gender Salience Scale Project
-    company_url: https://jacob-knyspel.netlify.app/project/gender-salience-scale-project/
-    company_logo: gssp
+    company: Department of Psychology, King's College London
+    company_url: https://www.kcl.ac.uk/mental-health-and-psychological-sciences/about/departments/psychology
+    company_logo: kcl
     location: London
     date_start: '2022-11-01'
     date_end: ''
