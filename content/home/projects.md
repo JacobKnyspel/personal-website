@@ -27,12 +27,10 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Gender Development
-      tag: Gender Development
+    - name: Gender
+      tag: Gender
     - name: Social Cognition
       tag: Social Cognition
-    - name: Other
-      tag: Other
 
 design:
   # Choose how many columns the section has. Valid values: '1' or '2'.
