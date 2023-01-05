@@ -29,7 +29,12 @@ experience:
     location: London
     date_start: '2022-11-01'
     date_end: ''
-    description: I am leading an independent research project under the supervision of [Dr Ashley Brown](https://www.kcl.ac.uk/people/ashley-brown) at the Department of Psychology, King's College London, the aim of which is to develop and validate a new quantitative scale of gender salience. This will involve the completion of a pre-registered quantitative study, during which data will be analysed using a combination of structural equation modelling and regression modelling techniques. Read more about the project [here](https://jacob-knyspel.netlify.app/project/gender-salience-scale-project/).
+    description: |3-
+        I am leading an independent research project under the supervision of [Dr Ashley Brown](https://www.kcl.ac.uk/people/ashley-brown) at the Department of Psychology, King's College London, the aim of which is to develop and validate a new quantitative scale of gender salience. 
+        
+        My responsibilities include: (i) designing the research, (ii) applying for ethical approval, (iii) applying for funding, (iv) pre-registering the research, (v) managing participant recruitment, (vi) analysing psychometric data, and (vii) writing a manuscript of the finished research.
+        
+        Read more about the project [here](https://jacob-knyspel.netlify.app/project/gender-salience-scale-project/).
 
   - title: Undergraduate Research Project
     company: Department of Psychology, King's College London
