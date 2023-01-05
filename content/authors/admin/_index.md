@@ -67,10 +67,10 @@ email: ''
 highlight_name: true
 ---
 
-Hi! :wave: This is my (still work in progress) personal website where I post information about myself, my research projects, and my publications. Feel free to have a look around. You can toggle dark mode at the top right of the page.
+Hi! :wave: This is my (still work in progress) personal website where I post information about myself, my research projects, and my publications. Feel free to have a look around.
 
-I am currently studying the MSc Developmental Psychology & Psychology at King’s College London, where I am studying modules about behavioural and statistical genetics research methods and undertaking a research placement in the area of clinical neurodevelopmental science. I am also leading an independent research project on the topic of gender salience, which you read more about [here](https://jacob-knyspel.netlify.app/project/gender-salience-scale-project/). 
+I am currently studying the MSc Developmental Psychology & Psychology at King’s College London, where I am undertaking modules about behavioural and statistical genetics research methods and a research placement in the area of clinical neurodevelopmental science. I am also leading an independent research project on the topic of gender salience, which you read more about [here](https://jacob-knyspel.netlify.app/project/gender-salience-scale-project/). 
 
 Prior to this, I graduated with a BSc Psychology from King's College London and gained research experience both inside and outside of my studies. In the future I am interested in pursuing further postgraduate research education.
 
-{{< icon name="download" pack="fas" >}} Download a {{< staticref "uploads/demo_resume.pdf" "newtab" >}}.pdf copy{{< /staticref >}} of my CV
+{{< icon name="download" pack="fas" >}} Download a {{< staticref "uploads/jacobknyspel_cv.pdf" "newtab" >}}.pdf copy{{< /staticref >}} of my CV
