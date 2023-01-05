@@ -70,7 +70,7 @@ experience:
     date_start: '2021-06-01'
     date_end: '2021-07-31'
     description: |3-
-        I completed a full-time summer research fellowship under the co-supervision of [Dr. Caroline Catmur](https://www.kcl.ac.uk/people/caroline-catmur) (King’s College London) and [Ms. Mirta Stantic](https://www.psy.ox.ac.uk/people/mirta-stantic) (University of Oxford), the aim of which was to develop a short-form
+      I completed a full-time summer research fellowship under the co-supervision of [Dr. Caroline Catmur](https://www.kcl.ac.uk/people/caroline-catmur) (King’s College London) and [Ms. Mirta Stantic](https://www.psy.ox.ac.uk/people/mirta-stantic) (University of Oxford), the aim of which was to develop a short-form
 version of the Oxford Face Matching Test.
         
         My responsibilities included: (i) building an online experiment, (ii) contributing to participant recruitment, (iii) contributing to data analysis, and (iv)
