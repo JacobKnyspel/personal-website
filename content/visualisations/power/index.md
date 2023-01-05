@@ -22,4 +22,6 @@ In the visualisation below, you can observe the relationship between statistical
 
 **References**
 
-Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum Associates, Publishers.
+Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum Associates, Publishers. [https://doi.org/10.4324/9780203771587](https://doi.org/10.4324/9780203771587)
+
+Ioannidis, J. P. A. (2005). Why most published research findings are false. *PLOS Medicine*, *2*(8), e124. [https://doi.org/10.1371/journal.pmed.0020124](https://doi.org/10.1371/journal.pmed.0020124)
