@@ -31,9 +31,12 @@ tags: ""
 
 featured: false
 
-# links:
-# - name: ""
-#   url: ""
+links: 
+  - icon: ""
+    icon_pack: ""
+    name: Abstract
+    url: https://jacob-knyspel.netlify.app/publication/facialexpressionrt/
+    
 url_pdf: ''
 url_code: ''
 url_dataset: ''
