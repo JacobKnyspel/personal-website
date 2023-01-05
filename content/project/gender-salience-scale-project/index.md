@@ -2,7 +2,7 @@
 title: Gender Salience Scale Project
 summary: Development and validation of a new quantitative scale of gender salience, the importance of gender to individuals in everyday life.
 tags:
-  - Gender Development
+  - Gender
 date: '2022-01-02T00:00:00Z'
 
 # Optional external URL for project (replaces project detail page).
