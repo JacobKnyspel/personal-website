@@ -20,4 +20,4 @@ In the visualisation below, you can observe the relationship between statistical
 
 **References**
 
-Cohen, J. (1988). 
+Cohen, J. (1988). *Statistical power analysis for the behavioral sciences* (2nd ed.). Lawrence Erlbaum Associates, Publishers.
