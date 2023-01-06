@@ -67,7 +67,7 @@ email: ''
 highlight_name: true
 ---
 
-Hi! :wave: This is my (still work in progress) personal website where I post information about myself, my research projects, and my publications. Feel free to have a look around.
+Hi! :wave: This is my (still work in progress) personal website where I post information about myself and the things I've been up to. Feel free to have a look around.
 
 I am currently studying the MSc Developmental Psychology & Psychology at King’s College London, where I am undertaking modules about behavioural and statistical genetics research methods and a research placement in the area of clinical neurodevelopmental science. I am also leading an independent research project on the topic of gender salience, which you read more about [here](https://jacob-knyspel.netlify.app/project/gender-salience-scale-project/). 
 
